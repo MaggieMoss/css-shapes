@@ -22,7 +22,6 @@
       margin-left: 1em;
       padding: 0.5em;
       box-sizing: border-box;
-      z-index: 3;
     }
 
     .base:after {
@@ -61,11 +60,9 @@
       border-top: 0.2em solid #42494B;
     }
 
-
-
     .page {
       margin-left: 3em;
-      margin-bottom: -4em;
+      margin-bottom: -3em;
       height: 7em;
       width: 8em;
       background-color: white;
@@ -118,6 +115,44 @@
       z-index: 1;
     }
 
+    .right-knob {
+      position: absolute;
+      top: 0.9em;
+      right: -.5em;
+      height: 1.2em;
+      width: 0.5em;
+      background-color: silver;
+      border-radius: 0 50% 50% 0;
+    }
+
+    .left-knob {
+      position: absolute;
+      top: 0.9em;
+      left: -.5em;
+      height: 1.2em;
+      width: 0.5em;
+      background-color: silver;
+      border-radius: 50% 0 0 50%;
+    }
+
+    .flag {
+      height: 4em;
+      width: 0.2em;
+      position: absolute;
+      background-color: silver;
+      left: -0.5em;
+      top: -2em;
+    }
+
+    .flag:after {
+      content: " ";
+      height: 0.8em;
+      width: 0.7em;
+      position: absolute;
+      top: 0em;
+      background-color: silver;
+    }
+
     .key {
       height: 0.5em;
       width: 0.5em;
@@ -128,7 +163,7 @@
 
     .space-bar {
       background-color: white;
-      border-radius: 20%;
+      border-radius: 10%;
       display: inline-block;
       height: 0.5em;
       width: 5em;
@@ -153,7 +188,12 @@
       <div class="line" style="width: 6.5em"></div>
       <div class="line"></div>
     </div>
-    <div class="bar"></div>
+
+    <div class="bar">
+      <div class="right-knob"></div>
+      <div class="left-knob"></div>
+      <div class="flag"></div>
+    </div>
     <div class="top">
       <div class="page-extender"></div>
       <div class="fan"></div>
