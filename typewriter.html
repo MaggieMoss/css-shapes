@@ -18,7 +18,7 @@
       text-align: center;
       border: 0.7em #D48F42 solid;
       border-top: 1em #D48F42 solid;
-      border-radius: 0.2em;
+      border-radius: 0 0 0.2em 0.2em;
       position: relative;
       margin-left: 1em;
       padding: 0.1em;
@@ -53,12 +53,21 @@
       height: 2em;
       width: 12em;
       background-color: #FFBC59;
-      border-radius: 0.2em 0.2em 0em 0em;
+      border-radius: 0.4em 0.4em 0em 0em;
       position: relative;
       margin-left: 1em;
       z-index: 3;
-      /*border-top: thick double #ff0000*/
-      border-top: 0.2em solid #42494B;
+      /*border-top: 0.2em solid #42494B;*/
+    }
+
+    .top:after {
+      content: " ";
+      position: absolute;
+      top: -0.2em;
+      height: 0.2em;
+      width: 12em;
+      background-color: #42494B;
+      /*z*/
     }
 
     .page {
