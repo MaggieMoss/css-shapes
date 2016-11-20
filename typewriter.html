@@ -3,9 +3,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>CSS Shapes</title>
 
   <style>
+    .container {
+      margin: 0 auto;
+      padding: 5em;
+    }
+
     .base {
       height: 6em;
       width: 12em;
@@ -50,15 +55,45 @@
       border-radius: 0.2em 0.2em 0em 0em;
       position: relative;
       margin-left: 1em;
-      z-index:2;
+      z-index: 3;
+      /*border-top: thick double #ff0000*/
+      border-top: 0.2em solid #42494B;
     }
 
+
+
     .page {
-      margin-left: 1em;
-      height: 5em;
+      margin-left: 3em;
+      margin-bottom: -4em;
+      height: 7em;
       width: 8em;
-      background-color: papayawhip;
-      z-index: 2;
+      background-color: white;
+      z-index: 3;
+      border: 0.01em solid black;
+      position: relative;
+      text-align: center;
+      padding-top: 1em;
+      box-sizing: border-box;
+    }
+
+    .line {
+      height: 0.25em;
+      width: 6em;
+      margin:0 auto;
+      margin-top: 0.3em;
+      border-radius: 10%;
+      background-color: gray;
+    }
+
+    .page-extender {
+      height: 0.8em;
+      width: 2em;
+      border-radius: 10%;
+      background-color: white;
+      position: absolute;
+      z-index: 10;
+      left: 5.0em;
+      top: -0.5em;
     }
 
     .bar {
@@ -97,13 +132,31 @@
       height: 0.5em;
       width: 5em;
     }
+
+    .fan {
+      position: absolute;
+      top: -0.5em;
+      left: 2.01em;
+      border-left: 4em solid transparent;
+      border-right: 4em solid transparent;
+      border-bottom: 2em solid #42494B;
+      border-radius: 0 0 50% 50%;
+    }
+
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="page"></div>
+    <div class="page">
+      <div class="line"></div>
+      <div class="line" style="width: 6.5em"></div>
+      <div class="line"></div>
+    </div>
     <div class="bar"></div>
-    <div class="top"></div>
+    <div class="top">
+      <div class="page-extender"></div>
+      <div class="fan"></div>
+    </div>
     <div class="base">
       <div class="keyboard">
         <div class="row">
