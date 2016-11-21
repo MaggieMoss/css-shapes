@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Camera</title>
+  <style>
+    .body  {
+      height: 5em;
+      width: 10em;
+      background-color: #57676D;
+      border-radius: 0.5em;
+      position:relative;
+    }
+
+    .lense {
+      margin: 0 auto;
+      border: 5px solid black;
+      height: 2.5em;
+      width: 2.5em;
+      border-radius: 50%;
+    }
+
+    .right {
+      height: 2.5em;
+      width: 9em;
+      background-color: #4E5C62;
+      border-radius: 0em 0.5em 0 0;
+      display: inline-block;
+      position: relative;
+    }
+
+    .right-top {
+      position: absolute;
+      top: 0;
+    }
+
+    .left {
+      width: 1em;
+      display: inline-block;
+      position: relative;
+      background-color: #3E4A4D;
+      border-radius: 3em 3em 0 0;
+    }
+
+    .side-top {
+      background-color: #455256;
+      height: 2.5em;
+      position: relative;
+      border-radius: 3em 0 0 0;
+    }
+
+    .side-bottom {
+      height: 2.5em;
+      background-color: #3E4A4D;
+      border-radius: 0 3em 0 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="camera-container">
+    <div class="shutter"></div>
+    <div class="flash"></div>
+    <div class="body">
+      <div class="left">
+        <div class="side-top"></div>
+        <div class="side-bottom"></div>
+      </div><!--
+   --><div class="right">
+        <div class="right-top"></div>
+      </div>
+      <!-- <div class="lense"></div> -->
+    </div>
+  </div>
+</body>
+</html>
