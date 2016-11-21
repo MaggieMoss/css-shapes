@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Headphones</title>
+  <style>
+    .container {
+      background: #0D2F3F;
+      padding: 4em;
+      position: relative;
+    }
+
+    .curve {
+      height: 10em;
+      width: 10em;
+      border: 1em solid #D7DBDD;
+      border-radius: 50% 50% 20% 20%;
+    }
+
+    .shield {
+      width: 20em;
+      height: 12em;
+      background: #0D2F3F;
+      position: absolute;
+      bottom: 0;
+      left: 4em;
+
+    }
+
+    .bar {
+      height: 3em;
+      width: 0.6em;
+      background-color: #48555C;
+      position: absolute;
+      bottom: 9em;
+      border-radius: 0.1em;
+    }
+
+    .right {
+      left: 4.6em;
+    }
+
+    .left {
+      left: 14.8em;
+    }
+
+    .right-ear {
+      height: 3.5em;
+      width: 2em;
+      border-radius: 49% 0 0 50%;
+      background:linear-gradient(to bottom, #D7DBDD 30px, #B7BABC 2px);
+      position: absolute;
+      bottom: 7.5em;
+      left: 5.2em;
+      z-index: 1;
+    }
+
+    .right-padding {
+      height: 4.5em;
+      width: 1.1em;
+      border-radius: 1em;
+      background: linear-gradient(to bottom, #48555C 37px,  #3A444A  2px);
+      position: absolute;
+      bottom: 7em;
+      left: 6.5em;
+      z-index: 5;
+    }
+
+    .left-ear {
+      position: absolute;
+      height: 3.5em;
+      width: 2em;
+      border-radius: 0 50% 50% 0;
+      background:linear-gradient(to bottom, #D7DBDD 30px, #B7BABC 2px);
+      bottom: 7.5em;
+      left: 13em;
+      z-index: 1;
+    }
+
+    .left-padding {
+      height: 4.5em;
+      width: 1.1em;
+      border-radius: 1em;
+      background: linear-gradient(to bottom, #48555C 37px,  #3A444A  2px);
+      position: absolute;
+      bottom: 7em;
+      left: 12.6em;
+      z-index: 5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="curve"></div>
+    <div class="shield"></div>
+    <div class="right-ear"></div>
+    <div class="right-padding"></div>
+    <div class="left-ear"></div>
+    <div class="left-padding"></div>
+    <div class="bar left"></div>
+    <div class="bar right"></div>
+  </div>
+</body>
+</html>
