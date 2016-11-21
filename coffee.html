@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Coffee</title>
+  <style>
+    .coffee-container {
+      margin: 0 auto;
+    }
+    .top-lid {
+      width: 7.5em;
+      height: 1em;
+      border: 5px solid black;
+      margin-bottom: -5px;
+      margin-left: 1em;
+
+    }
+
+    .bottom-lid {
+      width: 9.5em;
+      height: 1em;
+      border: 5px solid black;
+      margin-bottom: -5px;
+    }
+
+    .cup-container {
+      position:relative;
+      margin-left: 1.5em;
+    }
+
+    .cup-left {
+      height: 10em;
+      width: 4em;
+      border: 5px solid black;
+      -webkit-transform: skew(5deg);
+      background: white;
+      position: absolute;
+      top: 0em;
+      border-right: none;
+    }
+
+    .cup-right {
+      height: 10em;
+      width: 4em;
+      border: 5px solid black;
+      -webkit-transform: skew(-5deg);
+      background: white;
+      position: absolute;
+      top: 0em;
+      right: 34.5em;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="cofee-container">
+    <div class="lid">
+      <div class="top-lid"></div>
+      <div class="bottom-lid"></div>
+    </div>
+    <div class="cup-container">
+      <div class="cup-right"></div>
+      <div class="cup-left"></div>
+    </div>
+  </div>
+</body>
+</html>
