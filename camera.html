@@ -6,6 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Camera</title>
   <style>
+    .camera-container {
+      position: relative;
+    }
+
     .body  {
       height: 5em;
       width: 10em;
@@ -16,10 +20,44 @@
 
     .lense {
       margin: 0 auto;
-      border: 5px solid black;
+      border: 5px solid #212A2D;
       height: 2.5em;
       width: 2.5em;
       border-radius: 50%;
+      position: absolute;
+      top: 1em;
+      left: 4em;
+      background-color: #77878F;
+    }
+
+    .glass {
+      height: 2em;
+      width: 2em;
+      background-color: #5E6F78;
+      border-radius: 50%;
+      position: absolute;
+      top: 0.25em;
+      left: 0.25em;
+    }
+
+    .dark-circle {
+      height: 1.2em;
+      width: 1.2em;
+      background-color: #303A3F;
+      border-radius: 50%;
+      position: absolute;
+      top: 0.36em;
+      left: 0.36em;
+    }
+
+    .glare {
+      width: 0.1em;
+      height: 0.1em;
+      border: 2px solid white;
+      border-radius: 50%;
+      position: absolute;
+      top: 0.1em;
+      right: 0.2em;
     }
 
     .right {
@@ -70,7 +108,13 @@
    --><div class="right">
         <div class="right-top"></div>
       </div>
-      <!-- <div class="lense"></div> -->
+    </div>
+    <div class="lense">
+      <div class="glass">
+        <div class="dark-circle">
+          <div class="glare"></div>
+        </div>
+      </div>
     </div>
   </div>
 </body>
