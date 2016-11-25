@@ -430,7 +430,8 @@ h1 {
   width: 74.6%; }
 
 .two {
-  width: 49.2%; }
+  width: 49.2%;
+  min-width: 386px; }
 
 .one {
   width: 23.8%; }
@@ -438,20 +439,21 @@ h1 {
 h2 {
   text-align: center;
   font-weight: bold;
-  font-size: 3em; }
+  font-size: 2em; }
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .col {
     margin: 1% 0 1% 0%; }
 
   .one, .two, .three, .four {
-    width: 100%; } }
-.horizontal-line {
-  border-top: 2px solid black; }
+    width: 100%; }
 
+  .container {
+    padding: 1em; } }
 .description {
-  height: 100%; }
+  height: 100%;
+  text-decoration: underline; }
 
 .teal {
   background-color: #009997; }
