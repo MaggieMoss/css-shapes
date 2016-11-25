@@ -5,14 +5,14 @@ $teal: #009997;
 .camera-container {
   margin: 3em;
   position: relative;
-
+  padding-left: 4em;
   .shutter {
     width: 1.5em;
     height: 0.95em;
     background: #546369;
     position: absolute;
     top: -0.25em;
-    left: 0.3em;
+    left: 4.3em;
     border-radius: 0.5em;
   }
 
@@ -24,7 +24,7 @@ $teal: #009997;
     width: 2em;
     position: absolute;
     top: -1em;
-    left: 4em;
+    left: 8em;
   }
 
   .flash:before {
@@ -55,7 +55,7 @@ $teal: #009997;
     border-radius: 50%;
     position: absolute;
     top: 0.7em;
-    left: 3.7em;
+    left: 7.7em;
     background-color: #77878F;
   }
 
