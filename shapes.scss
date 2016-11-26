@@ -6,6 +6,7 @@ $teal: #009997;
   margin: 3em;
   position: relative;
   padding-left: 4em;
+  margin-left: 5em;
   .shutter {
     width: 1.5em;
     height: 0.95em;
@@ -156,7 +157,7 @@ $teal: #009997;
 .headphones-container {
   background: #0D2F3F;
   padding: 4em;
-  padding-left: 6.5em;
+  padding-left: 8.5em;
   position: relative;
   width: 100%;
   box-sizing: border-box;
@@ -188,11 +189,11 @@ $teal: #009997;
   }
 
   .right {
-    left: 7.1em;
+    left: 9.1em;
   }
 
   .left {
-    left: 17.3em;
+    left: 19.3em;
   }
 
   .right-ear {
@@ -202,7 +203,7 @@ $teal: #009997;
     background:linear-gradient(to bottom, #D7DBDD 30px, #B7BABC 2px);
     position: absolute;
     bottom: 7.5em;
-    left: 7.5em;
+    left: 9.5em;
     z-index: 1;
   }
 
@@ -213,7 +214,7 @@ $teal: #009997;
     background: linear-gradient(to bottom, #48555C 37px,  #3A444A  2px);
     position: absolute;
     bottom: 7em;
-    left: 9em;
+    left: 11em;
     z-index: 5;
   }
 
@@ -224,7 +225,7 @@ $teal: #009997;
     border-radius: 0 50% 50% 0;
     background:linear-gradient(to bottom, #D7DBDD 30px, #B7BABC 2px);
     bottom: 7.5em;
-    left: 15.5em;
+    left: 17.5em;
     z-index: 1;
   }
 
@@ -235,7 +236,7 @@ $teal: #009997;
     background: linear-gradient(to bottom, #48555C 37px,  #3A444A  2px);
     position: absolute;
     bottom: 7em;
-    left: 15em;
+    left: 17em;
     z-index: 5;
   }
 
@@ -244,7 +245,7 @@ $teal: #009997;
 // SUNGLASSES
 .sunglasses-container {
   background: #0D2F3F;
-  padding: 4em;
+  padding: 6em;
   position: relative;
   width: 100%;
   box-sizing: border-box;
@@ -269,8 +270,8 @@ $teal: #009997;
     background-color: #37BAA8;
     display: inline-block;
     position: absolute;
-    top: 5em;
-    left: 11em;
+    top: 7em;
+    left: 13em;
   }
 
   .handle {
@@ -298,6 +299,7 @@ $teal: #009997;
   background-color: #009997;
   width: 100%;
   box-sizing: border-box;
+  padding-left: 7em;
 
 
   .base {
@@ -507,7 +509,10 @@ $teal: #009997;
 // GRID SYSTEM
 h1 {
   text-align: center;
+  padding: 1em;
+  font-size: 3em;
 }
+
 .container {
   position: relative;
   width: 100%;

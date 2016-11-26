@@ -1,7 +1,8 @@
 .camera-container {
   margin: 3em;
   position: relative;
-  padding-left: 4em; }
+  padding-left: 4em;
+  margin-left: 5em; }
   .camera-container .shutter {
     width: 1.5em;
     height: 0.95em;
@@ -117,7 +118,7 @@
 .headphones-container {
   background: #0D2F3F;
   padding: 4em;
-  padding-left: 6.5em;
+  padding-left: 8.5em;
   position: relative;
   width: 100%;
   box-sizing: border-box; }
@@ -141,9 +142,9 @@
     bottom: 9em;
     border-radius: 0.1em; }
   .headphones-container .right {
-    left: 7.1em; }
+    left: 9.1em; }
   .headphones-container .left {
-    left: 17.3em; }
+    left: 19.3em; }
   .headphones-container .right-ear {
     height: 3.5em;
     width: 2em;
@@ -151,7 +152,7 @@
     background: linear-gradient(to bottom, #D7DBDD 30px, #B7BABC 2px);
     position: absolute;
     bottom: 7.5em;
-    left: 7.5em;
+    left: 9.5em;
     z-index: 1; }
   .headphones-container .right-padding {
     height: 4.5em;
@@ -160,7 +161,7 @@
     background: linear-gradient(to bottom, #48555C 37px, #3A444A 2px);
     position: absolute;
     bottom: 7em;
-    left: 9em;
+    left: 11em;
     z-index: 5; }
   .headphones-container .left-ear {
     position: absolute;
@@ -169,7 +170,7 @@
     border-radius: 0 50% 50% 0;
     background: linear-gradient(to bottom, #D7DBDD 30px, #B7BABC 2px);
     bottom: 7.5em;
-    left: 15.5em;
+    left: 17.5em;
     z-index: 1; }
   .headphones-container .left-padding {
     height: 4.5em;
@@ -178,12 +179,12 @@
     background: linear-gradient(to bottom, #48555C 37px, #3A444A 2px);
     position: absolute;
     bottom: 7em;
-    left: 15em;
+    left: 17em;
     z-index: 5; }
 
 .sunglasses-container {
   background: #0D2F3F;
-  padding: 4em;
+  padding: 6em;
   position: relative;
   width: 100%;
   box-sizing: border-box; }
@@ -203,8 +204,8 @@
     background-color: #37BAA8;
     display: inline-block;
     position: absolute;
-    top: 5em;
-    left: 11em; }
+    top: 7em;
+    left: 13em; }
   .sunglasses-container .handle {
     border-radius: 0.2em;
     height: 1.3em;
@@ -223,7 +224,8 @@
   padding: 5em;
   background-color: #009997;
   width: 100%;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding-left: 7em; }
   .typewriter-container .base {
     height: 5.2em;
     width: 12em;
@@ -388,7 +390,9 @@
     border-radius: 15%; }
 
 h1 {
-  text-align: center; }
+  text-align: center;
+  padding: 1em;
+  font-size: 3em; }
 
 .container {
   position: relative;
